@@ -1,12 +1,16 @@
-# Black Business Directory · DC & Baltimore
+# Black Business Directory
 
-An interactive directory of Black-owned businesses and Black business owners in Washington, DC, Baltimore and the suburbs between them.
+A nationwide, interactive directory of Black-owned businesses: storefronts, B2B and professional-service firms, federal contractors, and companies organized by sector ETF. Coverage is deepest in the DC–Baltimore region today and grows from there.
 
 **Live:** https://alxndrhq.github.io/black-business-directory/
 
 ## Views
 
-- **Map** (home): Black-owned storefronts across DC, Baltimore and the suburbs between, plus company headquarters (the **Companies** category, tagged with their sector ETF; search "XLK", "XLI", etc. to filter), with category filters, popups and directions. The **Owners** layer pins each profile to its home base.
+- **Map** (home): every listing, clustered, with popups and directions. Click a category chip to show only that category; click more chips to add them, or **All** to reset. Searching zooms the map to the results. Categories include consumer storefronts (restaurants, beauty & barber, retail, fitness, …) and B2B:
+  - **Companies**: profiled companies, tagged with their sector ETF (search "XLK", "XLI", …), linked to the owner's dossier.
+  - **Professional Services**: law, accounting, insurance, real estate, consulting and other firms with a commercial office.
+  - **Federal Contractors**: firms self-certified "Black American Owned" in SAM.gov with federal contracts FY22–26 (USAspending), with their top NAICS line and contract total.
+  The **Owners** layer pins each profile to its home base.
 - **Owners**: a card for every owner, grouped by sector ETF (XLE, XLB, XLI, XLY, XLP, XLV, XLF, XLK, XLC, XLU, XLRE). Use the Sector filter, or the Web view's "By Sector" layout, to see the Black-owned companies in each sector, B2B firms included.
 - **Overlaps**: businesses and institutions shared by two or more owners.
 - **Web**: a network graph of owners, their businesses and the ties between them (family, deals, mentorship, civic work). Click any node for a dossier.
