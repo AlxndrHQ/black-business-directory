@@ -6,12 +6,12 @@ An interactive directory of Black-owned businesses and Black business owners in 
 
 ## Views
 
-- **Web**: a network graph of owners, their businesses and the ties between them (family, deals, mentorship, civic work). Click any node for a dossier.
+- **Map** (home): Black-owned storefronts across DC, Baltimore and the suburbs between, with category filters, popups and directions. The **Owners** layer pins each profile to its home base.
 - **Owners**: a card for every owner, grouped by sector.
 - **Overlaps**: businesses and institutions shared by two or more owners.
-- **Map**: Black-owned storefronts across DC and Baltimore, with category filters, popups and directions. The **Owners** layer pins each profile to its home base.
+- **Web**: a network graph of owners, their businesses and the ties between them (family, deals, mentorship, civic work). Click any node for a dossier.
 
-Filters for era, region (Washington DC, Baltimore, National Legacy), size tier and sector apply to every view.
+The directory is present-day only: living owners and businesses that still operate. Filters for region (Washington DC, Baltimore, National), size tier and sector apply to the owner views.
 
 ## Data
 
@@ -20,7 +20,7 @@ Filters for era, region (Washington DC, Baltimore, National Legacy), size tier a
 | `index.html` | The whole app. Owner profiles and business entities are embedded between `/*DATA-START*/` and `/*DATA-END*/`. |
 | `places.json` | Pre-geocoded coordinates, the researched `additions` listings (with owner, note and source link), and a snapshot of the Google Sheet. |
 
-The Map tab reads the [community Google Sheet](https://docs.google.com/spreadsheets/d/1Qqolc72-Xw_KKCM216aMCBodEKLUuuyeSSbC2dbcb0g/edit) live on every visit. Researched listings in `places.json` are merged in beside it, and a sheet row with the same name and city takes precedence. New sheet rows are geocoded in the visitor's browser.
+The Map tab reads the [community Google Sheet](https://docs.google.com/spreadsheets/d/1Qqolc72-Xw_KKCM216aMCBodEKLUuuyeSSbC2dbcb0g/edit) live on every visit. About 670 researched listings in `places.json` are merged in beside it; a sheet row for the same business (same name and street address) takes precedence. New sheet rows are geocoded in the visitor's browser.
 
 ### Adding a business
 
