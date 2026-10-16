@@ -6,8 +6,8 @@ An interactive directory of Black-owned businesses and Black business owners in 
 
 ## Views
 
-- **Map** (home): Black-owned storefronts across DC, Baltimore and the suburbs between, with category filters, popups and directions. The **Owners** layer pins each profile to its home base.
-- **Owners**: a card for every owner, grouped by sector.
+- **Map** (home): Black-owned storefronts across DC, Baltimore and the suburbs between, plus company headquarters (the **Companies** category, tagged with their sector ETF; search "XLK", "XLI", etc. to filter), with category filters, popups and directions. The **Owners** layer pins each profile to its home base.
+- **Owners**: a card for every owner, grouped by sector ETF (XLE, XLB, XLI, XLY, XLP, XLV, XLF, XLK, XLC, XLU, XLRE). Use the Sector filter, or the Web view's "By Sector" layout, to see the Black-owned companies in each sector, B2B firms included.
 - **Overlaps**: businesses and institutions shared by two or more owners.
 - **Web**: a network graph of owners, their businesses and the ties between them (family, deals, mentorship, civic work). Click any node for a dossier.
 
